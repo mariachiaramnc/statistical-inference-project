@@ -1,4 +1,5 @@
-Progetto per la creazione di un modello di regressione lineare del corso di METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)
+Progetto per la creazione di un modello di regressione lineare del corso
+_METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)_
 
 Contenuto:
 - presentazione LaTeX
