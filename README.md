@@ -18,4 +18,4 @@ Strumenti utilizzati:
 - validazione del modello (omoschedasticità, test di normalità)
 - VIF (Variance Inflation Factor) e [GVIF](https://stats.stackexchange.com/questions/430412/vif-for-categorical-variable-with-more-than-2-categories) (VIF generalizzato)
 - Cross-validation con K fold e di tipo leave-one-out
-- intervalli di previsione e predizione
+- intervalli di previsione e confidenza
