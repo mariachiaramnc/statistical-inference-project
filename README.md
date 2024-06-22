@@ -8,7 +8,7 @@ Contenuto:
 - dataset con codice per la creazione del file txt
 - codice per l'analisi dei dati
 
-Dataset: dati dell'indagine OCSE PISA reperibile sul [sito dell'OECD](https://www.oecd.org/pisa/data/)
+Dataset: dati dell'indagine OCSE PISA reperibili sul [sito dell'OECD](https://www.oecd.org/pisa/data/)
 
 Strumenti utilizzati:
 - visualizzazione dati
