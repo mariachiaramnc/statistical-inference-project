@@ -16,6 +16,6 @@ Strumenti utilizzati:
 - rimozione dei punti influenti (outliers e leverages)
 - selezione delle variabili (stepwise backward and forward selection with BIC e AIC)
 - validazione del modello (omoschedasticità, test di normalità)
-- VIF (Variance Inflation Factor) e GVIF (VIF generalizzato, per maggiori dettagli https://stats.stackexchange.com/questions/430412/vif-for-categorical-variable-with-more-than-2-categories)
+- VIF (Variance Inflation Factor) e [GVIF](https://stats.stackexchange.com/questions/430412/vif-for-categorical-variable-with-more-than-2-categories) (VIF generalizzato)
 - Cross-validation con K fold e di tipo leave-one-out
 - Intervalli di previsione e predizione
