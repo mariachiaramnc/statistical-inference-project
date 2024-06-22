@@ -1,7 +1,7 @@
 # Performance in matematica, un modello di regressione lineare
 _Progetto parte del corso __METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)___
 
-Autori: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti
+_Autori: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti_
 
 Contenuto:
 - presentazione LaTeX
