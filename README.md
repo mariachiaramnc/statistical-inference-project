@@ -1,5 +1,5 @@
-# Progetto per la creazione di un modello di regressione lineare del corso 
-__METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)__
+# Performance in matematica - un modello di regressione lienare
+## Progetto parte del corso METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)
 
 Contenuto:
 - presentazione LaTeX
