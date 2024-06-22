@@ -1,5 +1,5 @@
 # Performance in matematica - un modello di regressione lienare
-## Progetto parte del corso METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)
+_Progetto parte del corso __METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)___
 
 Contenuto:
 - presentazione LaTeX
