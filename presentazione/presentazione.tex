@@ -134,7 +134,7 @@ Non è opportuno usare un test ANOVA perché non è verificata la gaussianità i
 
 \begin{frame}[fragile]
 \frametitle{Kruskal-Wallis}
-Usiamo allora il test non parametrico di Kruskal-Wallis
+Usiamo allora il test non parametrico di Kruskal-Wallis:
 {\scriptsize
 \begin{verbatim}
 Kruskal-Wallis Test (alpha = 0.001) 
@@ -152,23 +152,33 @@ Kruskal-Wallis Test (alpha = 0.001)
 \end{frame}
 
 \begin{frame}[fragile]
-\frametitle{Kruskal-Wallis}
-Concentriamo l'attenzione sulle classi da 2 a 5 e ripetiamo il test di Kruskal-Wallis:
-{\scriptsize
+\frametitle{Dunn}
+Usiamo ora il test di Dunn con la correzione di Bonferroni:
+{\tiny
 \begin{verbatim}
-Kruskal-Wallis Test (alpha = 0.1) 
-------------------------------------------------------------- 
-  data : mate and as.factor(study_time) 
-
-  statistic  : 2.945126 
-  parameter  : 3 
-  p.value    : 0.4001633 
-
-  Result     : Difference is not statistically significant. 
-------------------------------------------------------------- 
+> dunn.test(d$mate, as.factor(d$study_time), method = "bonferroni")
+                           Comparison of x by group                            
+                                 (Bonferroni)                                  
+Col Mean-|
+Row Mean |          1          2          3          4          5
+---------+-------------------------------------------------------
+       2 |  -8.043896
+         |    0.0000*
+         |
+       3 |  -10.73415  -1.631907
+         |    0.0000*     0.7702
+         |
+       4 |  -9.824431  -0.887767   0.836093
+         |    0.0000*     1.0000     1.0000
+         |
+       5 |  -8.715361  -0.487160   1.125403   0.368950
+         |    0.0000*     1.0000     1.0000     1.0000
+         |
+       6 |  -5.865791   1.907300   3.700865   2.953865   2.418035
+         |    0.0000*     0.4236    0.0016*    0.0235*     0.1170
 \end{verbatim}
 }
-Concludiamo che non c'è differenza significativa tra le mediane di queste classi e ha quindi senso raggrupparle nella stessa categoria.
+Concludiamo che non c'è differenza significativa tra le classi da 2 a 5 e ha quindi senso raggrupparle nella stessa categoria.
 \end{frame}
 
 \section{Modello lineare}
