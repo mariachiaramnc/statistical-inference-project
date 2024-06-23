@@ -12,7 +12,7 @@ Dataset: dati dell'indagine OCSE PISA reperibili sul [sito dell'OECD](https://ww
 
 Strumenti utilizzati:
 - visualizzazione dati
-- ANOVA non parametrica
+- ANOVA non parametrica (test di Kruskal-Wallis e di Dunn)
 - rimozione dei punti influenti (outliers e leverages)
 - selezione delle variabili (stepwise backward and forward selection with BIC e AIC)
 - validazione del modello (omoschedasticità, test di normalità)
