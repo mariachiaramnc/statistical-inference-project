@@ -23,6 +23,7 @@ library(nortest)
 library(boot)
 library(tidyverse)
 library(dplyr)
+library(dunn.test)
 
 #### NOTE ####
 
@@ -115,7 +116,10 @@ anova(lm(dm$mate ~ as.factor(dm$math_time)))
 summary(aov(dm$mate ~ as.factor(dm$math_time)))
 kw.test(mate ~ as.factor(math_time), dm, alpha = 0.1, na.rm = TRUE, verbose = TRUE)
 # => 4-5 hanno la stessa media
-
+dev.new()
+boxplot(d$mate ~ d$MACTIV, xlab = 'MACTIV', ylab = 'mate',
+        main = 'mate according to MACTIV', 
+        col = brewer.pal(n_distinct(d$math_time), 'Set2'))
 # study_time
 table(d$study_time)
 boxplot(d$mate ~ d$study_time, xlab = 'study_time', ylab = 'mate',
@@ -138,7 +142,7 @@ kw.test(mate ~ as.factor(study_time), d, alpha = 0.001, na.rm = TRUE, verbose = 
 dm=d[which(d$study_time == 2 | d$study_time == 3 | d$study_time == 4 | d$study_time == 5),]
 anova(lm(dm$mate ~ as.factor(dm$study_time)))
 summary(aov(dm$mate ~ as.factor(dm$study_time)))
-kw.test(mate ~ as.factor(study_time), dm, alpha = 0.1, na.rm = TRUE, verbose = TRUE)
+dunn.test(d$mate, as.factor(d$study_time), method = "bonferroni")
 # => 2-5 hanno la stessa media
 
 
