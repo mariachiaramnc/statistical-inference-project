@@ -25,22 +25,6 @@ library(tidyverse)
 library(dplyr)
 library(dunn.test)
 
-#### NOTE ####
-
-# QUESTIONI APERTE
-
-# scelta: punti di leva, residui stand/stud, cook (sulla base di R^2_adj e della normalità dei residui?)
-
-# estrapolare delle caratteristiche degli outliers per giustificarne la rimozione?
-
-# normalità dopo la rimozione dei punti influenti (leva belli e cook meh)
-
-# presentazione
-
-# SNIPPETS UTILI
-# ggpairs(data=..., lower=list(continuos=wrap("points", alpha=0.5, size=0.1)))
-
-
 
 
 #### IMPORTAZIONE DEI DATI ####
