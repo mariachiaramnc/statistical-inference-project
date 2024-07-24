@@ -1,21 +1,27 @@
-# Performance in matematica, un modello di regressione lineare
-_Progetto parte del corso __METODI E MODELLI DELL'INFERENZA STATISTICA (A.A. 2023/2024)___
+# Math performance, a linear regression model
 
-_Autori: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti_
+_Project Part of the Course __METHODS AND MODELS OF STATISTICAL INFERENCE (A.A. 2023/2024)___
 
-Contenuto:
-- presentazione LaTeX
-- dataset con codice per la creazione del file txt
-- codice per l'analisi dei dati
+_Authors: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti_
 
-Dataset: dati dell'indagine OCSE PISA reperibili sul [sito dell'OECD](https://www.oecd.org/pisa/data/)
+Content:
+- LaTeX presentation
+- dataset with code for creating the txt file
+- code for data analysis
 
-Strumenti utilizzati:
-- visualizzazione dati
-- ANOVA non parametrica (test di Kruskal-Wallis e di Dunn)
-- rimozione dei punti influenti (outliers e leverages)
-- selezione delle variabili (stepwise backward and forward selection with BIC e AIC)
-- validazione del modello (omoschedasticità, test di normalità)
-- VIF (Variance Inflation Factor) e GVIF (VIF generalizzato)
-- Cross-validation con K fold e di tipo leave-one-out
-- intervalli di previsione e confidenza
+Dataset: OCSE PISA survey data available on the [OECD website](https://www.oecd.org/pisa/data/)
+
+Tools Used:
+- data visualization
+- non-parametric ANOVA (Kruskal-Wallis and Dunn's test)
+- removal of influential points (outliers and leverages)
+- variable selection (stepwise backward and forward selection with BIC and AIC)
+- model validation (homoscedasticity, normality test)
+- VIF (Variance Inflation Factor) and GVIF (generalized VIF)
+- cross-validation with K-fold and leave-one-out
+- prediction and confidence intervals
+
+
+
+
+
