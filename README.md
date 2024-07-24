@@ -6,7 +6,7 @@ _Authors: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna 
 
 Content:
 - LaTeX presentation
-- dataset with code for creating the txt file
+- dataset with code for creating the .txt file
 - code for data analysis
 
 Dataset: OCSE PISA survey data available on the [OECD website](https://www.oecd.org/pisa/data/)
