@@ -9,7 +9,7 @@ Content:
 - dataset with code for creating the .txt file
 - code for data analysis
 
-Dataset: OCSE PISA survey data available on the [OECD website](https://www.oecd.org/pisa/data/)
+Dataset: OECD PISA 2022 survey data available on the [OECD website](https://www.oecd.org/pisa/data/)
 
 Tools Used:
 - data visualization
