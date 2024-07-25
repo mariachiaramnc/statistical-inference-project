@@ -1,6 +1,6 @@
 # Math performance, a linear regression model
 
-_Project Part of the Course __METHODS AND MODELS OF STATISTICAL INFERENCE (A.A. 2023/2024)___
+_Project Part of the Course __METHODS AND MODELS OF STATISTICAL INFERENCE (A.Y. 2023/2024)___
 
 _Authors: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti_
 
