@@ -2,7 +2,7 @@
 
 _Project Part of the Course __METHODS AND MODELS OF STATISTICAL INFERENCE (A.Y. 2023/2024)___
 
-_Authors: Maria Chiara Menicucci, Leonardo Pascotto, Alessandro Pedone, Arianna Perotti_
+Authors: [Maria Chiara Menicucci](https://github.com/mariachiaramnc), [Leonardo Pascotto](https://github.com/LeonardoPascotto), [Alessandro Pedone](https://github.com/alessandropedone), [Arianna Perotti](https://github.com/ariperotti)
 
 Content:
 - LaTeX presentation
